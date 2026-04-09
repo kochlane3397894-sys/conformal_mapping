@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEIN 共形映射.md",
+                "file": "共形映射.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STEIN 共形映射"
+              "title": "共形映射"
             }
           }
         ]
@@ -186,7 +186,7 @@
   "active": "1d7fb023986c8333",
   "lastOpenFiles": [
     "初等性质.md",
-    "STEIN 共形映射.md",
+    "共形映射.md",
     "欢迎.md",
     "创建链接.md"
   ]
