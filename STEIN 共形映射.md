@@ -1,5 +1,5 @@
+> [!quote] E. B. Christoffel，1870
 > 我所得到的关于多边形的结论，可以在相当一般的条件下进行推广。研究这一问题，是因为它是深入理解映射理论的关键一步。自黎曼的学位论文问世以来，这一方向的进展十分有限，而映射理论与黎曼函数论基本定理之间的紧密联系，都非常值得进一步深入研究。
-> <div style="text-align: right;">E. B. Christoffel，1870</div>
 
 本章讨论的问题与思想相比前几章更具几何色彩。我们主要关注全纯函数的映射性质，并且本章的大部分结论都是全局性的，而非前三章那种局部性的分析结果。贯穿本章的核心动机来自下面这个基本问题：
 
@@ -301,7 +301,7 @@ $$
 这就给出了带形区域上 Dirichlet 问题的一个解。特别地，我们发现解是用函数 $f_0$ 和 $f_1$ 的卷积给出的。另外，注意在带形区域的中点（$y = 1/2$），解是通过函数 $1/\cosh \pi t$ 的积分给出的；正如我们在第 3 章例 3 中所见，这个函数恰好是其自身的 Fourier 变换。
 
 
-# Schwarz 引理；圆盘与上半平面的自同构 ^schwarz-lemma-automorphisms
+# 2. Schwarz 引理；圆盘与上半平面的自同构 ^schwarz-lemma-automorphisms
 
 Schwarz 引理的叙述和证明都很简单，但该结果的应用却十分深远。我们回顾一下，旋转是形如 $z \mapsto cz$ 且 $|c| = 1$ 的映射，即 $c = e^{i\theta}$，其中 $\theta \in \mathbb{R}$ 称为旋转角，在相差 $2\pi$ 的整数倍的意义下是唯一确定的。
 
@@ -470,7 +470,7 @@ $$
 
 最后一个观察是，群 $\operatorname{Aut}(\mathbb{H})$ 并不完全同构于 $\mathrm{SL}_2(\mathbb{R})$。原因是两个矩阵 $M$ 和 $-M$ 给出相同的函数 $f_{M} = f_{-M}$。因此，若我们将两个矩阵 $M$ 和 $-M$ 等同起来，就得到一个新群 $\mathrm{PSL}_2(\mathbb{R})$，称为**射影特殊线性群**；这个群同构于 $\operatorname{Aut}(\mathbb{H})$。
 
-# Riemann 映射定理 ^riemann-mapping
+# 3. Riemann 映射定理 ^riemann-mapping
 
 ## 必要条件与定理陈述 ^riemann-conditions
 
