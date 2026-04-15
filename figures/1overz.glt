@@ -1,0 +1,54 @@
+############### 默认设置画面 #######################
+# set term svg font 'Arial,16'
+set term pngcairo font 'Arial,16' transparent size 1200,800
+
+set encoding utf8
+set xlabel 'Re(z)' offset 0, 0.5
+set ylabel 'Im(z)' offset 0.5,0
+unset key
+set view map scale 1
+set isosamples 150, 150
+set samples 150
+set size square 0.9
+set style data lines
+set cblabel "Phase angle"
+set cblabel  offset character -2, 0, 0 font "" textcolor lt -1 rotate by -270
+set cbrange [ -pi : pi ] noreverse nowriteback
+set cbtics   ('-π' -pi, 'π' pi)
+set palette defined ( 0 0 1 1, 1 1 1 1 )
+set palette positive nops_allcF maxcolors 0 gamma 1.5 color model HSV
+set tics out rangelimit scale 0.1
+set out "1overz.png"
+
+############### 默认设置画面 #######################
+
+xmin = -6
+xmax = 6
+ymin = -6
+ymax = 6
+x_tics_width = ceil((xmax - xmin) / 6)
+y_tics_width = ceil((ymax - ymin) / 6)
+set urange [xmin:xmax]
+set vrange [ymin:ymax]
+set xrange [xmin:xmax]
+set yrange [ymin:ymax]
+set xtics x_tics_width offset 0, 0.5
+set ytics y_tics_width offset 0.5, 0
+
+
+Hue(x,y) = (pi + atan2(y,x)) / (2*pi) 
+# only range from 0 to 1 
+# but the complex number range from -pi to pi, 
+# therefore pi needs to be added
+
+f(x,y) = 1 / (x + y*{0,1})
+# {0,1} 在gnuplot 中表示纯虚数
+rp(x,y) = real(f(x,y))
+ip(x,y) = imag(f(x,y))
+color(x,y) = hsv2rgb( Hue( rp(x,y), ip(x,y) ), abs(f(x,y)), 1)
+# hsv2rgb( Hue, Saturation, Value  ) -> RGB coordinate
+
+#color(x,y) = hsv2rgb( Hue( rp(x,y), ip(x,y) ), 1, abs( f(x,y) ) )
+
+
+splot '++' using 1:2:(color($1,$2)) with pm3d lc rgb variable
