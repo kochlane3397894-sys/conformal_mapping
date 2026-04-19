@@ -64,7 +64,7 @@ for (x_coords, y_coords) in vert_lines[0]:
 fig.update_xaxes(range=[-2, 2], title='Re(w)')
 fig.update_yaxes(range=[-2, 2], title='Im(w)')
 fig.update_layout(
-    title='线性分式变换：上半平面 → 单位圆盘',
+    title='线性分式变换：上半平面 ↔ 单位圆盘',
     width=700,
     height=700,
     plot_bgcolor='white'

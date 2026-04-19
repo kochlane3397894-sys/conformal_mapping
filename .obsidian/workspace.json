@@ -203,9 +203,13 @@
   },
   "active": "1d7fb023986c8333",
   "lastOpenFiles": [
+    "codes/logexp_animation.html",
+    "codes/logexp.py",
+    "共形映射.md",
+    "codes/HalfDisk_firstQuadrant_animation.html",
+    "codes/HalfDisk_firstQuadrant.py",
     "复变函数可视化代码解析.md",
     "初等性质.md",
-    "共形映射.md",
     "codes/HalfPlane_Disk_animation.html",
     "codes/HalfPlane_Disk.py",
     "codes/cayley.py",
@@ -216,11 +220,8 @@
     "figures/zbar.glt",
     "figures/crop.sh",
     "figures/1overz.png",
-    "figures/1overz.glt",
     "figures/z.png",
     "figures/z.svg",
-    "figures/z.glt",
-    "figures",
     "欢迎.md",
     "创建链接.md"
   ]
