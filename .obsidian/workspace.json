@@ -6,7 +6,7 @@
       {
         "id": "0bd03c64569aa71c",
         "type": "tabs",
-        "dimension": 50.45372050816697,
+        "dimension": 51.90562613430127,
         "children": [
           {
             "id": "1d7fb023986c8333",
@@ -27,7 +27,7 @@
       {
         "id": "a0edce57b86b38bf",
         "type": "tabs",
-        "dimension": 49.546279491833026,
+        "dimension": 48.09437386569873,
         "children": [
           {
             "id": "a74382ba2275134b",
@@ -203,22 +203,21 @@
   },
   "active": "1d7fb023986c8333",
   "lastOpenFiles": [
+    "共形映射.md",
+    "codes/Sin_animation.html",
+    "codes/Sin.py",
+    "codes/HalfPlane_HalfDisk_animation.html",
+    "codes/HalfPlane_HalfDisk.py",
     "codes/logexp_animation.html",
     "codes/logexp.py",
-    "共形映射.md",
     "codes/HalfDisk_firstQuadrant_animation.html",
     "codes/HalfDisk_firstQuadrant.py",
     "复变函数可视化代码解析.md",
     "初等性质.md",
     "codes/HalfPlane_Disk_animation.html",
     "codes/HalfPlane_Disk.py",
-    "codes/cayley.py",
-    "codes",
-    "新建文件夹",
     "柯西积分.md",
     "figures/zbar.png",
-    "figures/zbar.glt",
-    "figures/crop.sh",
     "figures/1overz.png",
     "figures/z.png",
     "figures/z.svg",
